@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package gcm.play.android.samples.com.gcmsender;
+package com.openet.gcmsender;
 
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;

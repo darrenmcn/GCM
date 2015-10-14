@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package gcm.play.android.samples.com.gcm;
+package com.openet.gcm;
 
 public class QuickstartPreferences {
 

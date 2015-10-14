@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package gcm.play.android.samples.com.gcm;
+package com.openet.gcm;
 
 import android.app.IntentService;
 import android.content.Intent;

@@ -7,15 +7,24 @@
     android:background="@color/blue_grey_700"
     android:orientation="vertical" tools:context=".MainActivity">
 
-    <TextView android:text="@string/registering_message" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/informationTextView"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/registrationProgressBar" />
+        <TextView android:text="@string/registering_message" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/informationTextView"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrationProgressBar"
+            android:layout_below="@+id/informationTextView"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,7 +36,18 @@
             android:text="No Device Token"
             android:id="@+id/token"
             android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:textIsSelectable="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy Token"
+            android:id="@+id/copytoken"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/token"
+            android:layout_alignStart="@+id/token"
+            android:layout_marginBottom="10dp" />
     </RelativeLayout>
 
 </LinearLayout>
