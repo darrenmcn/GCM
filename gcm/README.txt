@@ -42,11 +42,3 @@ Authorization:key=AIzaSyBZniLxyr5LdzMY2_CyN7tSAOZ0c5burFc
   } 
 }
 
-
-Keystore Details 
-------------------
-
-Key store password : 1n51ght
-Key Password : 1n51ght
-Key Alias: Openetkey
-
