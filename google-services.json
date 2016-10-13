@@ -1,20 +1,27 @@
 {
   "project_info": {
-    "project_number": "502672331194",
-    "project_id": "firebase-openet-gcm"
+    "project_number": "679261854109",
+    "firebase_url": "https://gcm-notifications-146319.firebaseio.com",
+    "project_id": "gcm-notifications-146319",
+    "storage_bucket": "gcm-notifications-146319.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:502672331194:android:069a9902cb7fa322",
+        "mobilesdk_app_id": "1:679261854109:android:069a9902cb7fa322",
         "android_client_info": {
           "package_name": "com.openet.gcm"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "679261854109-n3ccgti876ho12ejubndif7taf28cs9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyA4XIa6haiSTcamsYOfNJ3YW7hCUiyguo0"
+          "current_key": "AIzaSyBICtxYJwzEdD1beEKsGWtoA9HJyP4KXNI"
         }
       ],
       "services": {
@@ -26,7 +33,7 @@
           "other_platform_oauth_client": []
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }
