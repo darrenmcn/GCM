@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 boolean sentToken = sharedPreferences.getBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false);
                 String token = sharedPreferences.getString("Token", "token not found!");
                 if (sentToken) {
+                    Log.d("Token", "" + token);
                     mInformationTextView.setText(getString(R.string.gcm_send_message));
                     Token.setText(token);
 
