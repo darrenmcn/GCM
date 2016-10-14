@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Openet GCM Test</string>
     <string name="gcm_send_message">Token retrieved and sent to server! You can now send downstream messages to this app using the registration id below or to all devices using the topic \'/topics/global\'.</string>
-    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="registering_message">Retrieving InstanceID (Token)...</string>
     <string name="token_error_message">An error occurred while either fetching the InstanceID token,
         sending the fetched token to the server or subscribing to the PubSub topic. Please try
         running the sample again.</string>
